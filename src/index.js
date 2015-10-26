@@ -1,5 +1,5 @@
 
-import AppView from './app.jsx';
+import AppView from './AppView.jsx';
 
 ReactDOM.render(
 	React.createElement(AppView, {}),

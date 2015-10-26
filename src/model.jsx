@@ -7,7 +7,6 @@ class EventDispatcher {
 	on(name, fn) {
 		this.hooks[name] = this.hooks[name] || [];
 		this.hooks[name].push(fn);
-		console.log(name, fn);
 	}
 
 	off(name, fn) {
