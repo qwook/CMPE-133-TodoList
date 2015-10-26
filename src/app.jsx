@@ -15,7 +15,8 @@ class TodoListItemModel extends Model {
 }
 
 var todoListModel = new Collection([
-	new TodoListItemModel("Hey there!")
+	new TodoListItemModel("Mow the lawn."),
+	new TodoListItemModel("Wash the car.")
 ]);
 
 class TodoListItem extends React.Component
